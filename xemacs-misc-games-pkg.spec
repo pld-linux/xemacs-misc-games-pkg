@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Other amusements and diversions.
 
-%description -l pl 
+%description -l pl
 Inne zabawki i odwracacze uwagi.
 
 %prep
@@ -29,7 +29,7 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/misc-games/ChangeLog 
+gzip -9nf lisp/misc-games/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
