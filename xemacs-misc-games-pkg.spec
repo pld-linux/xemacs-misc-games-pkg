@@ -2,7 +2,7 @@ Summary:	Other amusements and diversions
 Summary(pl):	Other amusements and diversions
 Name:		xemacs-misc-games-pkg
 %define 	srcname	misc-games
-Version:	1.13
+Version:	1.14
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
