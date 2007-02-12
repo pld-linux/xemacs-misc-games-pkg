@@ -1,5 +1,5 @@
 Summary:	Other amusements and diversions
-Summary(pl):	Inne zabawki i odwracacze uwagi
+Summary(pl.UTF-8):   Inne zabawki i odwracacze uwagi
 Name:		xemacs-misc-games-pkg
 %define 	srcname	misc-games
 Version:	1.18
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Other amusements and diversions.
 
-%description -l pl
+%description -l pl.UTF-8
 Inne zabawki i odwracacze uwagi.
 
 %prep
