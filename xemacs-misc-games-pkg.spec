@@ -2,12 +2,12 @@ Summary:	Other amusements and diversions
 Summary(pl.UTF-8):	Inne zabawki i odwracacze uwagi
 Name:		xemacs-misc-games-pkg
 %define 	srcname	misc-games
-Version:	1.18
-Release:	2
+Version:	1.22
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	c68c91ee7eb296669388645c467fdede
+# Source0-md5:	a81005a3d0d4c640003f39fed2be4a7c
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
